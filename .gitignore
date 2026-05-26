@@ -1,0 +1,35 @@
+# Secrets - kabhi commit mat karo
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Keys
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+config/secrets.*
+
+# Dependencies
+node_modules/
+.npm
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.idea/
