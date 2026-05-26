@@ -126,7 +126,7 @@ If settings page won't open at all, you can configure manually:
 chrome.storage.local.set({ 'ai_provider': 'gemini' })
 
 // Add Gemini API key (replace YOUR_KEY with actual key)
-chrome.storage.local.set({ 'gemini_api_key': 'YOUR_KEY' })
+chrome.storage.local.set({ 'gemini_api_key': 'YOUR_KEY' }) # pragma: allowlist secret
 
 // Verify it saved
 chrome.storage.local.get(null, (data) => console.log(data))

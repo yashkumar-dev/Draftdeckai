@@ -308,7 +308,7 @@ For the full PR process, see [CONTRIBUTING.md → Pull Request Process](./CONTRI
    GEMINI_API_KEY=AIzaSyD...your-key
 
    # ❌ Wrong — no quotes around the value
-   GEMINI_API_KEY="AIzaSyD...your-key"
+   GEMINI_API_KEY="AIzaSyD...your-key" # pragma: allowlist secret
    ```
 3. Confirm the key is active in the provider's dashboard ([Google AI Studio](https://ai.google.dev/) or [Mistral Console](https://console.mistral.ai/)).
 4. Restart the dev server after any `.env` change:
